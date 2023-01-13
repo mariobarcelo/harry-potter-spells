@@ -99,7 +99,6 @@ h1 {
 		hsl(55deg 100% 50%) 100%
 	);
 	background-size: 800%;
-	border-radius: 0.62rem;
 	filter: blur(0.5rem);
 	animation: play 20s linear infinite;
 }
