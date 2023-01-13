@@ -1,0 +1,150 @@
+:root {
+	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	place-items: center;
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+h1 {
+	font-size: 2.62rem;
+	line-height: 1.1;
+}
+
+.card h3 {
+	font-size: 2.06rem;
+	font-weight: 500;
+	margin-bottom: 0.5rem;
+	line-height: 3.37rem;
+}
+.card blockquote {
+	font-size: 1.25rem;
+	line-height: 2.18rem;
+	max-width: 75ch;
+	margin-top: 0;
+}
+
+#app {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+.logo {
+	font-size: 3rem;
+	padding: 2rem;
+}
+
+.card {
+	padding: 0 2rem 2rem 2rem;
+}
+
+.read-the-docs {
+	color: #888;
+}
+
+.next-spell-button {
+	display: inline-block;
+	background: rgb(3, 3, 3);
+	cursor: pointer;
+	user-select: none;
+	border: none;
+	margin-top: 1.56rem;
+	padding: 1rem 2rem;
+	color: #fff;
+	font-size: 1.125rem;
+	font-weight: bold;
+	position: relative;
+	border-radius: 0.75rem;
+	transition: background 0.5s ease;
+}
+
+.next-spell-button::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(
+		50deg,
+		hsl(55deg 100% 50%) 0%,
+		hsl(45deg 100% 50%) 14%,
+		hsl(30deg 100% 56%) 29%,
+		hsl(7deg 100% 63%) 43%,
+		hsl(7deg 100% 63%) 57%,
+		hsl(30deg 100% 56%) 71%,
+		hsl(45deg 100% 50%) 86%,
+		hsl(55deg 100% 50%) 100%
+	);
+	background-size: 800%;
+	border-radius: 0.62rem;
+	filter: blur(0.5rem);
+	animation: play 20s linear infinite;
+}
+
+.next-spell-button:hover {
+	background: rgb(22, 22, 22);
+	cursor: pointer;
+	transition: background 0.3s ease;
+}
+
+@-webkit-keyframes play {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+@keyframes play {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+@media (max-width: 480px) {
+	#app-title {
+		font-size: 1.8rem;
+	}
+	.card {
+		padding-inline: 0;
+	}
+	.card h3 {
+		font-size: 1.25rem;
+		line-height: 2.18rem;
+	}
+	.card blockquote {
+		font-size: 1rem;
+		line-height: 1.56rem;
+	}
+}
