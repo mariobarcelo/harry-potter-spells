@@ -2,6 +2,8 @@
 
 Learn the names and descriptions of the spells of the Harry Potter saga with just one click.
 
+![harry-potter-spells](https://user-images.githubusercontent.com/44384270/212380690-74a868d9-f785-428b-8dfe-360675dd6a8c.png)
+
 ## Features ✨
 
 - Fetch API to show Harry Potter spells names and descriptions
