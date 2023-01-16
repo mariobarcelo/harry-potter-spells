@@ -24,6 +24,12 @@ Learn the names and descriptions of the spells of the Harry Potter saga with jus
 - Create an animated glowing background for the button
 - Use Vite and deploy the project on Vercel
 
-## See it in action! 🚀
+## Going further 🚀
+These would be the possible next steps for this project
+- Make the transition from one spell to another smoother
+- Improve the error managment and display
+- Add more whimsy!
+
+## See it in action! 🔥
 
 [Watch the project live](https://harry-potter-spells.vercel.app/)
